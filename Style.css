@@ -8,6 +8,7 @@
 }
 
 .bg-dark{ background-color: var(--black) !important;}
+.bg-dark2{ background-color: var(--black2) !important;}
 
 .navbar{
   min-height: 1rem;
