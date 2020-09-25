@@ -1,0 +1,14 @@
+:root{
+  --black: #18242f;
+  --grey: #393e46;
+  --blue: #00a3af;
+  --whithe: #eeeeee;
+  --blue2: #00555e;
+  --black2: #131c25;
+}
+
+.bg-dark{ background-color: var(--black) !important;}
+
+.navbar{
+  min-height: 1rem;
+}
