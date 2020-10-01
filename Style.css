@@ -5,11 +5,63 @@
   --whithe: #eeeeee;
   --blue2: #00555e;
   --black2: #131c25;
+  --red: #e50914;
+  --black3: #000000;
 }
 
 .bg-dark{ background-color: var(--black) !important;}
 .bg-dark2{ background-color: var(--black2) !important;}
+.bg-red{ background-color: var(--red) !important;}
 
 .navbar{
   min-height: 1rem;
+}
+
+.titulo{
+  font-size: 4rem;
+  background: linear-gradient(90deg, var(--blue2) 0%, var(--blue) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.video{
+  height: 91vh;
+}
+
+.imagen{
+  height: 98vh;
+}
+
+.sliderFondo{
+  height: 91vh;
+  background-color: var(--black3);
+  padding-left: 120px;
+}
+
+.sliderFondo2{
+  height: 91vh;
+  background-color: var(--black);
+}
+
+.sliderFondo3{
+  background-color: var(--white);
+  padding-left: 120px;
+}
+
+.sliderFondo4{
+  background-color: var(--black);
+}
+
+.sliderprueba{
+  background-color: var(--red);
+}
+
+.text-primary{
+  background: linear-gradient(90deg, var(--blue2) 0%, var(--blue) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-second2{
+  color: var(--white);
 }
